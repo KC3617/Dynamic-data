@@ -1,0 +1,81 @@
+{
+    "title":"Welcome to Miami",
+    "abstract":"This is the abstract",
+    "image":"/images/miamiroad.jpg",
+    "services":[
+        {
+            "title":"Transportation",
+            "intro":"You can move around Miami",
+            "list":[
+                "Uber",
+                "Bus",
+                "Metro Mover"
+            ],
+            "image":"/images/homepage/transportation.jpg"
+        },
+        {
+            "title":"Tours",
+            "intro":"Go look outside",
+            "list":[
+                "Bus Tour",
+                "Boat Tour",
+                "Bike Tour"
+            ],
+            "image":"/images/homepage/tours.jpg"
+        },
+        {
+            "title":"Tours",
+            "intro":"Go look outside",
+            "list":[
+                "Bus Tour",
+                "Boat Tour",
+                "Bike Tour"
+            ],
+            "image":"/images/homepage/tours.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title":"Beach Day",
+            "description":"Package description: Go to beach and see seagulls",
+            "image":"/images/homepage/beachday.jpg",
+            "price":"1500",
+            "duration":"1 day"
+        },
+        {
+            "title":"Beach Day",
+            "description":"Package description: Go to beach and see seagulls",
+            "image":"/images/homepage/beachday.jpg",
+            "price":"1500",
+            "duration":"1 day"
+        },
+        {
+            "title":"Beach Day",
+            "description":"Package description: Go to beach and see seagulls",
+            "image":"/images/homepage/beachday.jpg",
+            "price":"1500",
+            "duration":"1 day"
+        },
+        {
+            "title":"Beach Day",
+            "description":"Package description: Go to beach and see seagulls",
+            "image":"/images/homepage/beachday.jpg",
+            "price":"1500",
+            "duration":"1 day"
+        },
+        {
+            "title":"Beach Day",
+            "description":"Package description: Go to beach and see seagulls",
+            "image":"/images/homepage/beachday.jpg",
+            "price":"1500",
+            "duration":"1 day"
+        },
+        {
+            "title":"Beach Day",
+            "description":"Package description: Go to beach and see seagulls",
+            "image":"/images/homepage/beachday.jpg",
+            "price":"1500",
+            "duration":"1 day"
+        }
+    ]
+}

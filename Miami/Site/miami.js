@@ -18,11 +18,16 @@ app.set('view engine','handlebars')
 
 const PORT = process.env.port || 3000
 
+//import app-wide data
+const gallery= require("./data/gallery.json")
+
 //process routes before errors(write at end)
 app.get('/',(request,response,)=>{
+    console.log(gallery)
     response.render('landing',{
+        gallery,
         title:"This Is Miami",
-        abstract:"Miami is in FLorida & very expensive",
+        abstract:"Miami is in Florida & very expensive",
         image:"miamiroad.jpg"
     })
 })
