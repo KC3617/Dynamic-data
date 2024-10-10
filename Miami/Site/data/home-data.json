@@ -24,12 +24,22 @@
             "image":"/images/homepage/tours.jpg"
         },
         {
-            "title":"Tours",
-            "intro":"Go look outside",
+            "title":"Hotels",
+            "intro":"Places to stay during your trip",
             "list":[
-                "Bus Tour",
-                "Boat Tour",
-                "Bike Tour"
+                "Embassy Suites",
+                "JW Marriot",
+                "InterContinental"
+            ],
+            "image":"/images/homepage/hotels.jpg"
+        },
+        {
+            "title":"Attractions",
+            "intro":"Go see something amazing",
+            "list":[
+                "Vizcaya Museum and Gardens",
+                "Wynwood Wall",
+                "Miami Beach Boardwalk"
             ],
             "image":"/images/homepage/tours.jpg"
         }
@@ -43,38 +53,38 @@
             "duration":"1 day"
         },
         {
-            "title":"Beach Day",
-            "description":"Package description: Go to beach and see seagulls",
-            "image":"/images/homepage/beachday.jpg",
-            "price":"1500",
+            "title":"Cultural Tour",
+            "description":"Explore Miami's vibrant neighborhoods, visit art galleries, and learn about the local culture",
+            "image":"/images/homepage/culturaltour.jpg",
+            "price":"2000",
             "duration":"1 day"
         },
         {
-            "title":"Beach Day",
-            "description":"Package description: Go to beach and see seagulls",
-            "image":"/images/homepage/beachday.jpg",
-            "price":"1500",
+            "title":"Everglades Adventure",
+            "description":"Take an airboat tour through the Everglades, spot alligators, and enjoy the unique ecosystem",
+            "image":"/images/homepage/everglades.jpg",
+            "price":"1800",
             "duration":"1 day"
         },
         {
-            "title":"Beach Day",
-            "description":"Package description: Go to beach and see seagulls",
-            "image":"/images/homepage/beachday.jpg",
-            "price":"1500",
+            "title":"Foodie Experience",
+            "description":"Discover Miami's diverse culinary scene with a guided food tour featuring local favorites",
+            "image":"/images/homepage/foodieexperience.jpg",
+            "price":"1200",
             "duration":"1 day"
         },
         {
-            "title":"Beach Day",
-            "description":"Package description: Go to beach and see seagulls",
-            "image":"/images/homepage/beachday.jpg",
-            "price":"1500",
+            "title":"Water Sports Package",
+            "description":"Enjoy a day of adventure with jet skiing, paddleboarding, and snorkeling in beautiful waters",
+            "image":"/images/homepage/watersportspackage.jpg",
+            "price":"2500",
             "duration":"1 day"
         },
         {
-            "title":"Beach Day",
-            "description":"Package description: Go to beach and see seagulls",
-            "image":"/images/homepage/beachday.jpg",
-            "price":"1500",
+            "title":"Art Deco Walking Tour",
+            "description":"Stroll through South Beach and admire the iconic Art Deco architecture while learning about its history and design",
+            "image":"/images/homepage/artdecotour.jpg",
+            "price":"1000",
             "duration":"1 day"
         }
     ]

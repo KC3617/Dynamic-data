@@ -1,0 +1,91 @@
+{
+    "title":"Welcome to Miami",
+    "abstract":"This is the abstract",
+    "image":"/images/miamiroad.jpg",
+    "services":[
+        {
+            "title":"Nightclubs",
+            "intro":"Experience Miami’s vibrant nightlife with world-renowned DJs and iconic nightclubs",
+            "list":[
+                "E11EVEN",
+                "Story",
+                "Club Space"
+            ],
+            "image":"/images/nightlife/nightclubs.jpg"
+        },
+        {
+            "title":"Rooftop Bars",
+            "intro":"Sip cocktails while enjoying breathtaking views of Miami from these trendy rooftop bars",
+            "list":[
+                "Juvia",
+                "Astra",
+                "Watr at the 1 Rooftop"
+            ],
+            "image":"/images/nightlife/rooftop-bars.jpg"
+        },
+        {
+            "title":"Live Music Venues",
+            "intro":"Catch live performances from local bands and big-name artists at Miami's top music venues",
+            "list":[
+                "The Fillmore Miami Beach",
+                "Ball & Chain",
+                "Lagniappe House"
+            ],
+            "image":"/images/nightlife/live-music.jpg"
+        },
+        {
+            "title":"Comedy Clubs",
+            "intro":"Laugh the night away at Miami’s best comedy clubs, featuring local and touring comedians",
+            "list":[
+                "Villain Theater",
+                "Just The Funny",
+                "The Comedy Inn"
+            ],
+            "image":"/images/nightlife/comedy-clubs.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title": "VIP Nightclub Experience",
+            "description": "Package description: Enjoy a VIP night out at one of Miami's hottest nightclubs, including bottle service and exclusive table access.",
+            "image": "/images/nightlife/vipnightclub.jpg",
+            "price": "2500",
+            "duration": "1 night"
+        },
+        {
+            "title": "Rooftop Party Package",
+            "description": "Package description: Celebrate with stunning views at a Miami rooftop bar, featuring drink specials and access to a private area.",
+            "image": "/images/nightlife/rooftopparty.jpg",
+            "price": "800",
+            "duration": "4 hours"
+        },
+        {
+            "title": "Live Music Night Out",
+            "description": "Package description: Enjoy a night of live music at a popular venue, complete with dinner and drinks included.",
+            "image": "/images/nightlife/livemusicnight.jpg",
+            "price": "150",
+            "duration": "4 hours"
+        },
+        {
+            "title": "Comedy Night Package",
+            "description": "Package description: Laugh the night away with a comedy show ticket and a dinner reservation at a nearby restaurant.",
+            "image": "/images/nightlife/comedynight.jpg",
+            "price": "100",
+            "duration": "3 hours"
+        },
+        {
+            "title": "Miami Beach Bar Crawl",
+            "description": "Package description: Join a guided bar crawl through Miami Beach's hottest spots, with drink specials and no cover charges included.",
+            "image": "/images/nightlife/barcrawl.jpg",
+            "price": "70",
+            "duration": "4 hours"
+        },
+        {
+            "title": "Themed Party Night",
+            "description": "Package description: Attend a special themed party at a trendy venue with entertainment, themed drinks, and a lively atmosphere.",
+            "image": "/images/nightlife/themedpartynight.jpg",
+            "price": "150",
+            "duration": "5 hours"
+        }        
+    ]
+}

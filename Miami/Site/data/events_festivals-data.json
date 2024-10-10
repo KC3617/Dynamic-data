@@ -1,0 +1,91 @@
+{
+    "title":"Must-Attend Events & Festivals",
+    "abstract":"Events you must attend during your trip",
+    "image":"/images/miamiroad.jpg",
+    "services":[
+        {
+            "title":"Music Festivals",
+            "intro":"Dance to the beats of world-class DJs and musicians at Miami’s famous music festivals",
+            "list":[
+                "Ultra Music Festival",
+                "Rolling Loud",
+                "III Points Festival"
+            ],
+            "image":"/images/events/music-festivals.jpg"
+        },
+        {
+            "title":"Art & Culture Festivals",
+            "intro":"Celebrate Miami’s diverse art scene with these vibrant and creative cultural festivals",
+            "list":[
+                "Art Basel Miami Beach",
+                "Miami Film Festival",
+                "Wynwood Art Walk"
+            ],
+            "image":"/images/events/art-culture-festivals.jpg"
+        },
+        {
+            "title":"Food & Wine Events",
+            "intro":"Satisfy your culinary cravings at Miami’s top food and wine events showcasing local and international flavors",
+            "list":[
+                "South Beach Wine & Food Festival",
+                "Miami Spice",
+                "Coconut Grove Food & Wine Festival"
+            ],
+            "image":"/images/events/food-wine-events.jpg"
+        },
+        {
+            "title":"Holiday & Seasonal Celebrations",
+            "intro":"Experience Miami’s festive spirit with these annual holiday and seasonal events",
+            "list":[
+                "Miami Beach New Year’s Eve Party",
+                "Winterfest Boat Parade",
+                "Calle Ocho Festival"
+            ],
+            "image":"/images/events/holiday-celebrations.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title": "Miami Beach Pride Celebration",
+            "description": "Package description: Celebrate diversity at Miami Beach Pride with parade access, exclusive parties, and VIP seating at key events",
+            "image": "/images/events/miamibeachpride.jpg",
+            "price": "1500",
+            "duration": "2 days"
+        },
+        {
+            "title": "Miami International Boat Show",
+            "description": "Package description: Enjoy a day at the largest boat show in the world, featuring luxury yachts, marine exhibits, and exclusive access to VIP events",
+            "image": "/images/events/boatshow.jpg",
+            "price": "2000",
+            "duration": "3 days"
+        },
+        {
+            "title": "Miami Jazz Festival Experience",
+            "description": "Package description: Immerse yourself in the vibrant jazz scene with tickets to performances, meet-and-greet sessions with artists, and workshops",
+            "image": "/images/events/jazzfestival.jpg",
+            "price": "800",
+            "duration": "2 days"
+        },
+        {
+            "title": "Coconut Grove Arts Festival",
+            "description": "Package description: Explore local art, crafts, and live music at one of Miami’s oldest arts festivals, with exclusive access to artist receptions",
+            "image": "/images/events/coconutgrovearts.jpg",
+            "price": "900",
+            "duration": "3 days"
+        },
+        {
+            "title": "South Florida Fair",
+            "description": "Package description: Experience the best of Florida with rides, games, live performances, and delicious food at the annual South Florida Fair",
+            "image": "/images/events/southfloridafair.jpg",
+            "price": "700",
+            "duration": "10 days"
+        },
+        {
+            "title": "Miami Book Fair",
+            "description": "Package description: Engage with authors and literary events at the largest book fair in the U.S., featuring readings, signings, and discussions",
+            "image": "/images/events/bookfair.jpg",
+            "price": "400",
+            "duration": "1 weekend"
+        }        
+    ]
+}

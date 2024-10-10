@@ -1,0 +1,91 @@
+{
+    "title":"Miami Eateries",
+    "abstract":"Restaurants every foodie should visit",
+    "image":"/images/miamiroad.jpg",
+    "services":[
+        {
+            "title":"Cuban Cuisine",
+            "intro":"Savor authentic Cuban dishes at Miami's top spots for a true taste of the city's heritage",
+            "list":[
+                "Versailles Restaurant",
+                "La Carreta",
+                "El Palacio de los Jugos"
+            ],
+            "image":"/images/dining/cuban-cuisine.jpg"
+        },
+        {
+            "title":"Seafood Restaurants",
+            "intro":"Indulge in the freshest seafood Miami has to offer at these popular dining destinations",
+            "list":[
+                "Joe’s Stone Crab",
+                "La Mar by Gastón Acurio",
+                "The River Oyster Bar"
+            ],
+            "image":"/images/dining/seafood-restaurants.jpg"
+        },
+        {
+            "title":"Fine Dining",
+            "intro":"Experience gourmet cuisine and luxurious dining at Miami’s best high-end restaurants",
+            "list":[
+                "Zuma Miami",
+                "Stubborn Seed",
+                "Chef Adrianne’s Vineyard Restaurant"
+            ],
+            "image":"/images/dining/fine-dining.jpg"
+        },
+        {
+            "title":"Food Halls",
+            "intro":"Discover a variety of global flavors and culinary experiences at Miami’s top food halls",
+            "list":[
+                "Time Out Market Miami",
+                "1-800-Lucky",
+                "The Wharf Miami"
+            ],
+            "image":"/images/dining/food-halls.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title": "Cuban Cuisine Culinary Tour",
+            "description": "Package description: Discover the flavors of Cuba with a guided culinary tour, including tastings at iconic restaurants and a cooking class.",
+            "image": "/images/dining/cubancuisine.jpg",
+            "price": "1200",
+            "duration": "1 day"
+        },
+        {
+            "title": "Miami Food Truck Adventure",
+            "description": "Package description: Experience Miami’s vibrant food truck scene with a guided tour featuring tastings from the best food trucks across the city.",
+            "image": "/images/dining/foodtruckadventure.jpg",
+            "price": "600",
+            "duration": "3 hours"
+        },
+        {
+            "title": "Fine Dining Experience",
+            "description": "Package description: Enjoy a multi-course tasting menu at one of Miami's top fine dining restaurants, complete with wine pairings.",
+            "image": "/images/dining/finedining.jpg",
+            "price": "300",
+            "duration": "3 hours"
+        },
+        {
+            "title": "South Beach Wine & Food Festival Package",
+            "description": "Package description: Indulge in the South Beach Wine & Food Festival with access to exclusive tastings, events, and celebrity chef dinners.",
+            "image": "/images/dining/sobewff.jpg",
+            "price": "1500",
+            "duration": "4 days"
+        },
+        {
+            "title": "Farm-to-Table Experience",
+            "description": "Package description: Join a guided farm-to-table dinner featuring local ingredients and dishes prepared by top Miami chefs.",
+            "image": "/images/dining/farmtotable.jpg",
+            "price": "250",
+            "duration": "1 evening"
+        },
+        {
+            "title": "Vegan Food Tour",
+            "description": "Package description: Explore Miami's thriving vegan scene with tastings at the best vegan restaurants and cafes throughout the city.",
+            "image": "/images/dining/veganfoodtour.jpg",
+            "price": "500",
+            "duration": "4 hours"
+        }        
+    ]
+}

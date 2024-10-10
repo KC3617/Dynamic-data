@@ -1,0 +1,91 @@
+{
+    "title":"Miami retail",
+    "abstract":"Best places to shop in Miami",
+    "image":"/images/miamiroad.jpg",
+    "services":[
+        {
+            "title":"Designer Boutiques",
+            "intro":"Find luxury and high-end fashion at these exclusive Miami boutiques",
+            "list":[
+                "Bal Harbour Shops",
+                "The Webster",
+                "Brickell City Centre"
+            ],
+            "image":"/images/shopping/designer-boutiques.jpg"
+        },
+        {
+            "title":"Outdoor Markets",
+            "intro":"Shop local and discover fresh produce, handmade crafts, and more at these outdoor markets",
+            "list":[
+                "Coconut Grove Farmers Market",
+                "Bayside Marketplace",
+                "South Beach Local Market"
+            ],
+            "image":"/images/shopping/outdoor-markets.jpg"
+        },
+        {
+            "title":"Shopping Malls",
+            "intro":"Explore Miami’s best malls, offering a variety of stores and entertainment options",
+            "list":[
+                "Aventura Mall",
+                "Dolphin Mall",
+                "Shops at Merrick Park"
+            ],
+            "image":"/images/shopping/shopping-malls.jpg"
+        },
+        {
+            "title":"Vintage & Thrift Stores",
+            "intro":"Uncover unique finds at Miami’s best vintage and thrift stores",
+            "list":[
+                "Fly Boutique",
+                "Out of the Closet",
+                "Las Tias"
+            ],
+            "image":"/images/shopping/vintage-thrift.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title": "Luxury Shopping Experience",
+            "description": "Package description: Enjoy a personal shopping experience at Miami's top designer boutiques, including a personal stylist and exclusive discounts.",
+            "image": "/images/shopping/luxuryshopping.jpg",
+            "price": "3000",
+            "duration": "5 hours"
+        },
+        {
+            "title": "Miami Market Tour",
+            "description": "Package description: Discover local flavors at Miami's best markets with tastings and insights from local vendors on this guided market tour.",
+            "image": "/images/shopping/marketour.jpg",
+            "price": "200",
+            "duration": "3 hours"
+        },
+        {
+            "title": "Vintage Shopping Day",
+            "description": "Package description: Explore Miami's best vintage and thrift stores with a guided shopping experience, including tips on finding hidden treasures.",
+            "image": "/images/shopping/vintageshopping.jpg",
+            "price": "150",
+            "duration": "4 hours"
+        },
+        {
+            "title": "Artisan Craft Workshop",
+            "description": "Package description: Participate in a hands-on workshop to create your own artisanal crafts, followed by shopping for unique handmade goods.",
+            "image": "/images/shopping/artisancraft.jpg",
+            "price": "120",
+            "duration": "2 hours"
+        },
+        {
+            "title": "Eco-Friendly Shopping Tour",
+            "description": "Package description: Immerse yourself in Miami's eco-conscious shopping scene with a guided tour of sustainable shops and boutiques. Discover ethically sourced products, eco-friendly fashion, and zero-waste stores while learning about the importance of sustainable living.",
+            "image": "/images/shopping/ecofriendlyshopping.jpg",
+            "price": "70",
+            "duration": "2.5 hours"
+        },        
+        {
+            "title": "Fashion District Shopping Spree",
+            "description": "Package description: Experience a day of shopping in Miami’s fashion district, with exclusive access to designer samples and private sales.",
+            "image": "/images/shopping/fashiondistrict.jpg",
+            "price": "250",
+            "duration": "6 hours"
+        }        
+    ]
+}
