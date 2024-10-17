@@ -11,7 +11,7 @@
                 "La Carreta",
                 "El Palacio de los Jugos"
             ],
-            "image":"/images/dining/cuban-cuisine.jpg"
+            "image":"/images/dining/cuban-cuisine.jpeg"
         },
         {
             "title":"Seafood Restaurants",
@@ -21,7 +21,7 @@
                 "La Mar by Gastón Acurio",
                 "The River Oyster Bar"
             ],
-            "image":"/images/dining/seafood-restaurants.jpg"
+            "image":"/images/dining/seafood-restaurants.jpeg"
         },
         {
             "title":"Fine Dining",
@@ -31,7 +31,7 @@
                 "Stubborn Seed",
                 "Chef Adrianne’s Vineyard Restaurant"
             ],
-            "image":"/images/dining/fine-dining.jpg"
+            "image":"/images/dining/fine-dining.jpeg"
         },
         {
             "title":"Food Halls",
@@ -41,28 +41,28 @@
                 "1-800-Lucky",
                 "The Wharf Miami"
             ],
-            "image":"/images/dining/food-halls.jpg"
+            "image":"/images/dining/food-halls.jpeg"
         }
     ],
     "packages":[
         {
             "title": "Cuban Cuisine Culinary Tour",
             "description": "Package description: Discover the flavors of Cuba with a guided culinary tour, including tastings at iconic restaurants and a cooking class.",
-            "image": "/images/dining/cubancuisine.jpg",
+            "image": "/images/dining/cubancuisine.jpeg",
             "price": "1200",
             "duration": "1 day"
         },
         {
             "title": "Miami Food Truck Adventure",
             "description": "Package description: Experience Miami’s vibrant food truck scene with a guided tour featuring tastings from the best food trucks across the city.",
-            "image": "/images/dining/foodtruckadventure.jpg",
+            "image": "/images/dining/foodtruckadventure.jpeg",
             "price": "600",
             "duration": "3 hours"
         },
         {
             "title": "Fine Dining Experience",
             "description": "Package description: Enjoy a multi-course tasting menu at one of Miami's top fine dining restaurants, complete with wine pairings.",
-            "image": "/images/dining/finedining.jpg",
+            "image": "/images/dining/finedining.jpeg",
             "price": "300",
             "duration": "3 hours"
         },
@@ -76,14 +76,14 @@
         {
             "title": "Farm-to-Table Experience",
             "description": "Package description: Join a guided farm-to-table dinner featuring local ingredients and dishes prepared by top Miami chefs.",
-            "image": "/images/dining/farmtotable.jpg",
+            "image": "/images/dining/farmtotable.jpeg",
             "price": "250",
             "duration": "1 evening"
         },
         {
             "title": "Vegan Food Tour",
             "description": "Package description: Explore Miami's thriving vegan scene with tastings at the best vegan restaurants and cafes throughout the city.",
-            "image": "/images/dining/veganfoodtour.jpg",
+            "image": "/images/dining/veganfoodtour.jpeg",
             "price": "500",
             "duration": "4 hours"
         }        

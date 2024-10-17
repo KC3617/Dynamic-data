@@ -24,11 +24,11 @@ const gallery= require("./data/gallery.json")
 //process routes before errors(write at end)
 app.get('/',(request,response,)=>{
     console.log(gallery)
+    //import page-specific data
+    const data = require("./data/home-data.json")
     response.render('landing',{
         gallery,
-        title:"This Is Miami",
-        abstract:"Miami is in Florida & very expensive",
-        image:"miamiroad.jpg"
+        data
     })
 })
 app.get('/about',(request,response,)=>{

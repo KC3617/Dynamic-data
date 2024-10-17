@@ -11,7 +11,7 @@
                 "Story",
                 "Club Space"
             ],
-            "image":"/images/nightlife/nightclubs.jpg"
+            "image":"/images/nightlife/nightclubs.jpeg"
         },
         {
             "title":"Rooftop Bars",
@@ -21,7 +21,7 @@
                 "Astra",
                 "Watr at the 1 Rooftop"
             ],
-            "image":"/images/nightlife/rooftop-bars.jpg"
+            "image":"/images/nightlife/rooftop-bars.jpeg"
         },
         {
             "title":"Live Music Venues",
@@ -31,7 +31,7 @@
                 "Ball & Chain",
                 "Lagniappe House"
             ],
-            "image":"/images/nightlife/live-music.jpg"
+            "image":"/images/nightlife/live-music.jpeg"
         },
         {
             "title":"Comedy Clubs",
@@ -48,14 +48,14 @@
         {
             "title": "VIP Nightclub Experience",
             "description": "Package description: Enjoy a VIP night out at one of Miami's hottest nightclubs, including bottle service and exclusive table access.",
-            "image": "/images/nightlife/vipnightclub.jpg",
+            "image": "/images/nightlife/vipnightclub.jpeg",
             "price": "2500",
             "duration": "1 night"
         },
         {
             "title": "Rooftop Party Package",
             "description": "Package description: Celebrate with stunning views at a Miami rooftop bar, featuring drink specials and access to a private area.",
-            "image": "/images/nightlife/rooftopparty.jpg",
+            "image": "/images/nightlife/rooftopparty.jpeg",
             "price": "800",
             "duration": "4 hours"
         },
@@ -76,14 +76,14 @@
         {
             "title": "Miami Beach Bar Crawl",
             "description": "Package description: Join a guided bar crawl through Miami Beach's hottest spots, with drink specials and no cover charges included.",
-            "image": "/images/nightlife/barcrawl.jpg",
+            "image": "/images/nightlife/barcrawl.jpeg",
             "price": "70",
             "duration": "4 hours"
         },
         {
             "title": "Themed Party Night",
             "description": "Package description: Attend a special themed party at a trendy venue with entertainment, themed drinks, and a lively atmosphere.",
-            "image": "/images/nightlife/themedpartynight.jpg",
+            "image": "/images/nightlife/themedpartynight.jpeg",
             "price": "150",
             "duration": "5 hours"
         }        
