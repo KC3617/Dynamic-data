@@ -1,20 +1,20 @@
 {
     "images":[
-        {"url":"/images/gallery/miamiroad.jpg", "title":"Image Title 1"}, 
-        {"url":"/images/gallery/miamiroad.jpg", "title":"Image Title 1"}, 
-        {"url":"/images/gallery/miamiroad.jpg", "title":"Image Title 1"}, 
-        {"url":"/images/gallery/miamiroad.jpg", "title":"Image Title 1"}, 
-        {"url":"/images/gallery/miamiroad.jpg", "title":"Image Title 1"}, 
-        {"url":"/images/gallery/miamiroad.jpg", "title":"Image Title 1"}, 
-        {"url":"/images/gallery/miamiroad.jpg", "title":"Image Title 1"}, 
-        {"url":"/images/gallery/miamiroad.jpg", "title":"Image Title 1"}, 
-        {"url":"/images/gallery/miamiroad.jpg", "title":"Image Title 1"}, 
-        {"url":"/images/gallery/miamiroad.jpg", "title":"Image Title 1"}, 
-        {"url":"/images/gallery/miamiroad.jpg", "title":"Image Title 1"}, 
-        {"url":"/images/gallery/miamiroad.jpg", "title":"Image Title 1"}, 
-        {"url":"/images/gallery/miamiroad.jpg", "title":"Image Title 1"}, 
-        {"url":"/images/gallery/miamiroad.jpg", "title":"Image Title 1"}, 
-        {"url":"/images/gallery/miamiroad.jpg", "title":"Image Title 1"}, 
-        {"url":"/images/gallery/miamiroad.jpg", "title":"Image Title 1"}
+        {"url":"/images/gallery/miamiApartments", "title":"Image Title 1"}, 
+        {"url":"/images/gallery/miamiBeach.jpg", "title":"Image Title 1"}, 
+        {"url":"/images/gallery/miamiBeachRed.jpg", "title":"Image Title 1"}, 
+        {"url":"/images/gallery/miamiBike.jpg", "title":"Image Title 1"}, 
+        {"url":"/images/gallery/miamiBTrees.jpg", "title":"Image Title 1"}, 
+        {"url":"/images/gallery/miamiCar.jpg", "title":"Image Title 1"}, 
+        {"url":"/images/gallery/miamiComplex.jpg", "title":"Image Title 1"}, 
+        {"url":"/images/gallery/miamiCream.jpg", "title":"Image Title 1"}, 
+        {"url":"/images/gallery/miamiDeco.jpg", "title":"Image Title 1"}, 
+        {"url":"/images/gallery/miamiEntrance.jpg", "title":"Image Title 1"}, 
+        {"url":"/images/gallery/miamiHotel.jpg", "title":"Image Title 1"}, 
+        {"url":"/images/gallery/miamiHouse.jpg", "title":"Image Title 1"}, 
+        {"url":"/images/gallery/miamiWynwood.jpg", "title":"Image Title 1"}, 
+        {"url":"/images/gallery/miamiRooftops.jpg", "title":"Image Title 1"}, 
+        {"url":"/images/gallery/miamiSkyscraper.jpg", "title":"Image Title 1"}, 
+        {"url":"/images/gallery/miamiStreet.jpg", "title":"Image Title 1"}
     ]
 }
