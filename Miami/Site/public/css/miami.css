@@ -11,3 +11,8 @@ p {
 .orange-bg {
     background-color: orange;
 }
+
+.card-img-top {
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
