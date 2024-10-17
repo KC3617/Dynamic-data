@@ -1,6 +1,7 @@
 {{! This #if is a helper to evaluate of the variable or expression exists !}}
-{{#if image}}
-<img class="hero img-fluid" src="/images/{{image}}" alt="">
+{{#if data.image}}
+<img class="hero img-fluid" src="{{data.image}}" alt="">
+
 {{/if}}
-<h1 class="primary-heading">{{title}}</h1>
-<p class="abstract">{{abstract}}</p>
+<h1 class="primary-heading">{{data.title}}</h1>
+<p class="abstract">{{data.abstract}}</p>
