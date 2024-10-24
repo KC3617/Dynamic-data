@@ -26,33 +26,39 @@ app.get('/',(request,response,)=>{
     console.log(gallery)
     //import page-specific data
     const data = require("./data/home-data.json")
+
     response.render('landing',{
         gallery,
         data
     })
 })
-app.get('/about',(request,response,)=>{
+app.get('/events',(request,response,)=>{
+    const data = require("./data/events_festivals-data.json")
     response.render('page',{
-        title:"About Miami",
-        abstract:"Miami is in the south and spelled with 5 letters. It is also hot."
+        gallery,
+        data
     })
 })
-app.get('/hotspots',(request,response,)=>{
+app.get('/food',(request,response,)=>{
+    const data = require("./data/food_dining-data.json")
     response.render('page',{
-        title:"Miami Hotspots",
-        abstract:"Miami is a party city. Go out and do things(legally) here."
+        gallery,
+        data
     })
 })
-
-app.get('/Gallery',(request,response,)=>{
-    response.type('text/plain')
-    response.send('Pictures of Miami')
+app.get('/nightlife',(request,response,)=>{
+    const data = require("./data/nightlife_entertainment-data.json")
+    response.render('page',{
+        gallery,
+        data
+    })
 })
-
-//triggers server error
-app.get('/history',(req,res,)=>{
-    response.type('text/plain')
-    response.send('History of Miami')
+app.get('/retail',(request,response,)=>{
+    const data = require("./data/shopping_markets-data.json")
+    response.render('page',{
+        gallery,
+        data
+    })
 })
 
 //Handle errors first (write 1st)

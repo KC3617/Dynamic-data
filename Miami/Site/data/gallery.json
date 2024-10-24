@@ -4,17 +4,17 @@
         {"url":"/images/gallery/miamiBeach.jpg", "title":"Miami Beach"}, 
         {"url":"/images/gallery/miamiBeachRed.jpg", "title":"Miami Beach Structure"}, 
         {"url":"/images/gallery/miamiBike.jpg", "title":"Miami Bike"}, 
-        {"url":"/images/gallery/miamiBTrees.jpg", "title":"Miami Beach Trees"}, 
-        {"url":"/images/gallery/miamiCar.jpg", "title":"Miami Car"}, 
-        {"url":"/images/gallery/miamiComplex.jpg", "title":"Miami Complex"}, 
-        {"url":"/images/gallery/miamiCream.jpg", "title":"Guy with Ice Cream"}, 
+        {"url":"/images/gallery/miamiCar.jpg", "title":"Miami Car"},
         {"url":"/images/gallery/miamiDeco.jpg", "title":"Miami Art Deco"}, 
-        {"url":"/images/gallery/miamiEntrance.jpg", "title":"Miami Beach Entry"}, 
-        {"url":"/images/gallery/miamiHotel.jpg", "title":"Miami Hotel"}, 
+        {"url":"/images/gallery/miamiEntrance.jpg", "title":"Miami Beach Entry"},  
+        {"url":"/images/gallery/miamiSkyscraper.jpg", "title":"Miami Building"},
+        {"url":"/images/gallery/miamiHotel.jpg", "title":"Miami Hotel"},  
+        {"url":"/images/gallery/miamiRooftops.jpg", "title":"Miami Rooftop"},
+        {"url":"/images/gallery/miamiStreet.jpg", "title":"Miami Street"},
+        {"url":"/images/gallery/miamiCream.jpg", "title":"Guy with Ice Cream"}, 
         {"url":"/images/gallery/miamiHouse.jpg", "title":"Miami Villa"}, 
         {"url":"/images/gallery/miamiWynwood.jpg", "title":"Wynwood Art"}, 
-        {"url":"/images/gallery/miamiRooftops.jpg", "title":"Miami Rooftop"}, 
-        {"url":"/images/gallery/miamiSkyscraper.jpg", "title":"Miami Building"}, 
-        {"url":"/images/gallery/miamiStreet.jpg", "title":"Miami Street"}
+        {"url":"/images/gallery/miamiBTrees.jpg", "title":"Miami Beach Trees"},
+        {"url":"/images/gallery/miamiComplex.jpg", "title":"Miami Complex"}
     ]
 }
