@@ -1,6 +1,12 @@
 <h1>Basic Form</h1>
 
-<form action="/process" method="POST">
+{{#if req.query.fieldColor}}
+<p>
+    Your favorite color is : {{req.query.fieldColor}}
+</p>
+{{/if}}
+
+<form action="/" method="GET">
 
     <input type="hidden" name="hush" value="hidden but not secret">
 

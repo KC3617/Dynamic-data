@@ -15,8 +15,14 @@ app.set('view engine','handlebars')
 const PORT = process.env.port || 3000
 
 app.get("/", (req,res)=>{
-    res.render('page')
+    res.render('page', {req})
 })
+
+app.get("/mad", (req,res)=>{
+    const data = require("./data/mad-data.json")
+    res.render('madform', {data})
+})
+
 
 app.post('/process',(req,res)=>{
     res.send('got post')
