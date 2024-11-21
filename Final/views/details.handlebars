@@ -1,0 +1,8 @@
+{{#each data.products}}
+{{this.image}}
+{{this.id}} {{this.name}} {{this.price}} <br>
+    {{#each this.gallery}}
+        {{this}} <br>
+    {{/each}}
+
+{{/each}}

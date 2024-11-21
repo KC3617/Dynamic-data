@@ -1,3 +1,10 @@
+//Run the following commands in terminal:
+//npm install express
+//npm install express-handlebars
+//if you have errors, run
+//sudo npm install express
+//sude npm install express-handlebars
+
 // imports express into our project 
 const express = require('express') 
 //create the express server inside a variable called app
@@ -14,13 +21,53 @@ app.engine('handlebars', expressHandlebars.engine({
 app.set('view engine','handlebars')
 
 const port = process.env.port || 3000
+
+//setup routes
 app.get("/",(req,res)=>{
-    res.render('page',{req})
+    const data= require('./data/homepage.json')
+    res.render('homepage',{data})
 })
 
+//about page
+app.get("/about",(req,res)=>{
+    const data= require('./data/about.json')
+    res.render('about',{data})
+})
 
+//categories
 
+app.get("/category/:category",(req,res)=>{
+    if(req.params.category == "accessories"){
+        let dataFile = './data/accessories-data.json'
+    } else  if(req.params.category == "tops"){
+        let dataFile = './data/tops-data.json'
+    } else  if(req.params.category == "bottoms"){
+        let dataFile = './data/bottoms-data.json'
+    }
+    var data= require(dataFile)
+    res.render('category',{data})
+})
 
+//details page
+app.get("/category/:category/details/:id",(req,res)=>{
+    if(req.params.category == "tops"){
+        let data = top-data.json
+    }
+
+    const data= require('./data/homepage.json')
+    //filter to get data that matches the id
+    // temp filter
+    var tempData = {"products":[]}
+    tempData.products = data.products.filter((product)=>{
+        return product.id == req.params.id
+    })
+    res.render('details',{"data":tempData})
+})
+
+app.get("/cart",(req,res)=>{
+
+    res.render("cart",{products})
+})
 
 //Error handling ->  app.use() basic express route 
 app.use((req,res) => {
