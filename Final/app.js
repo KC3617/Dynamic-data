@@ -64,9 +64,22 @@ app.get("/category/:category/details/:id",(req,res)=>{
     res.render('details',{"data":tempData})
 })
 
+//shopping cart
+let cart = {"products":[]}
+
 app.get("/cart",(req,res)=>{
 
-    res.render("cart",{products})
+    if(typfeof(req.query.id) != "undefined") {
+        cart.products.push(req.query)
+        console.log(req)
+        console.log(req.query.name)
+    } else {
+        console.log(req)
+        console.log(req.query.id)
+        console.log(req.query.name)
+    }
+
+    res.render("cart",{"products":cart.products})
 })
 
 //Error handling ->  app.use() basic express route 
