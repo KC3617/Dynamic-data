@@ -2,6 +2,7 @@
     "products":[
         {
         "id":12,
+        "category":1,
         "name": "halter top",
         "description":"a description",
         "price":20.99,

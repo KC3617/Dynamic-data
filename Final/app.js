@@ -1,75 +1,70 @@
-//Run the following commands in terminal:
-//npm install express
-//npm install express-handlebars
-//if you have errors, run
-//sudo npm install express
-//sude npm install express-handlebars
+// Run the following commands in terminal:
+// npm install express
+// npm install express-handlebars 
+// if you have errors, run   
+// sudo npm install express
+// sudo npm install express-handlebars 
 
-// imports express into our project 
-const express = require('express') 
-//create the express server inside a variable called app
+
+const express = require('express')
+
+const expressHandlebars = require('express-handlebars') 
+
 const app = express()
-//Specify static routes
-app.use(express.static('public'))
-// import a package for handlebars
-const expressHandlebars = require('express-handlebars')
-//configure our express app to use handlebars
+
 app.engine('handlebars', expressHandlebars.engine({
     defaultLayout: 'main',
 }))
 
 app.set('view engine','handlebars')
+//ends handlebar configuration
 
 const port = process.env.port || 3000
 
-//setup routes
+//Setup routes
 app.get("/",(req,res)=>{
-    const data= require('./data/homepage.json')
+    const data = require('./data/homepage.json') 
     res.render('homepage',{data})
 })
 
-//about page
 app.get("/about",(req,res)=>{
-    const data= require('./data/about.json')
-    res.render('about',{data})
+    const data = require('./data/about.json') 
+    res.render('page',{data})
 })
-
-//categories
-
-app.get("/category/:category",(req,res)=>{
-    if(req.params.category == "accessories"){
-        let dataFile = './data/accessories-data.json'
-    } else  if(req.params.category == "tops"){
-        let dataFile = './data/tops-data.json'
-    } else  if(req.params.category == "bottoms"){
-        let dataFile = './data/bottoms-data.json'
-    }
-    var data= require(dataFile)
+// all category pages
+app.get("/category1",(req,res)=>{
+    const data = require('./data/category_1.json') 
     res.render('category',{data})
 })
-
+app.get("/category2",(req,res)=>{
+    const data = require('./data/category_2.json') 
+    res.render('category',{data})
+})
+app.get("/category3",(req,res)=>{
+    const data = require('./data/category_3.json') 
+    res.render('category',{data})
+})
 //details page
-app.get("/category/:category/details/:id",(req,res)=>{
-    if(req.params.category == "tops"){
-        let data = top-data.json
-    }
+app.get("/category1/details/:id",(req,res)=>{
 
-    const data= require('./data/homepage.json')
-    //filter to get data that matches the id
-    // temp filter
+    const data = require('./data/category_1.json') 
+    console.log(data)
+    // filter the data to get only the data that matches the id
+    // temporary filter
     var tempData = {"products":[]}
     tempData.products = data.products.filter((product)=>{
         return product.id == req.params.id
     })
+    console.log("data filter")
+    console.log(data)
+
     res.render('details',{"data":tempData})
 })
 
-//shopping cart
 let cart = {"products":[]}
 
-app.get("/cart",(req,res)=>{
-
-    if(typfeof(req.query.id) != "undefined") {
+app.get("/cart",(req,res) =>{
+    if(typeof(req.query.id) != "undefined") {
         cart.products.push(req.query)
         console.log(req)
         console.log(req.query.name)
@@ -81,6 +76,7 @@ app.get("/cart",(req,res)=>{
 
     res.render("cart",{"products":cart.products})
 })
+
 
 //Error handling ->  app.use() basic express route 
 app.use((req,res) => {
@@ -94,7 +90,6 @@ app.use((error,req,res,next) => {
     res.status(500)
     res.render('500') 
 }) 
-
 // setup listener
 app.listen(port,()=>{
     console.log(`Server started http://localhost:${port}`)
