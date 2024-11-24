@@ -1,6 +1,138 @@
 {
     "products":[
         {
+        "id":1,
+        "category":1,
+        "name": "halter top",
+        "description":"a description",
+        "price":20.99,
+        "image": "/images/tops/halter-top.jpg",
+        "gallery":[
+        "/images/tops/halter-top1.jpg", 
+        "/images/tops/halter-top2.jpg"
+        ] 
+        },
+        {
+            "id":2,
+            "category":1,
+            "name": "halter top",
+            "description":"a description",
+            "price":20.99,
+            "image": "/images/tops/halter-top.jpg",
+            "gallery":[
+            "/images/tops/halter-top1.jpg", 
+            "/images/tops/halter-top2.jpg"
+            ] 
+        },
+        {
+        "id":3,
+        "category":1,
+        "name": "halter top",
+        "description":"a description",
+        "price":20.99,
+        "image": "/images/tops/halter-top.jpg",
+        "gallery":[
+        "/images/tops/halter-top1.jpg", 
+        "/images/tops/halter-top2.jpg"
+        ] 
+        },
+        {
+        "id":4,
+        "category":1,
+        "name": "halter top",
+        "description":"a description",
+        "price":20.99,
+        "image": "/images/tops/halter-top.jpg",
+        "gallery":[
+        "/images/tops/halter-top1.jpg", 
+        "/images/tops/halter-top2.jpg"
+        ] 
+        },
+        {
+            "id":5,
+            "category":1,
+            "name": "halter top",
+            "description":"a description",
+            "price":20.99,
+            "image": "/images/tops/halter-top.jpg",
+            "gallery":[
+            "/images/tops/halter-top1.jpg", 
+            "/images/tops/halter-top2.jpg"
+            ] 
+            },
+         {
+        "id":6,
+        "category":1,
+        "name": "halter top",
+        "description":"a description",
+        "price":20.99,
+        "image": "/images/tops/halter-top.jpg",
+        "gallery":[
+        "/images/tops/halter-top1.jpg", 
+        "/images/tops/halter-top2.jpg"
+        ] 
+        },
+        {
+            "id":7,
+            "category":1,
+            "name": "halter top",
+            "description":"a description",
+            "price":20.99,
+            "image": "/images/tops/halter-top.jpg",
+            "gallery":[
+            "/images/tops/halter-top1.jpg", 
+            "/images/tops/halter-top2.jpg"
+            ] 
+        },
+        {
+            "id":8,
+            "category":1,
+            "name": "halter top",
+            "description":"a description",
+            "price":20.99,
+            "image": "/images/tops/halter-top.jpg",
+            "gallery":[
+            "/images/tops/halter-top1.jpg", 
+            "/images/tops/halter-top2.jpg"
+            ] 
+            },
+         {
+        "id":9,
+        "category":1,
+        "name": "halter top",
+        "description":"a description",
+        "price":20.99,
+        "image": "/images/tops/halter-top.jpg",
+        "gallery":[
+        "/images/tops/halter-top1.jpg", 
+        "/images/tops/halter-top2.jpg"
+        ] 
+        },
+         {
+        "id":10,
+        "category":1,
+        "name": "halter top",
+        "description":"a description",
+        "price":20.99,
+        "image": "/images/tops/halter-top.jpg",
+        "gallery":[
+        "/images/tops/halter-top1.jpg", 
+        "/images/tops/halter-top2.jpg"
+        ] 
+        },
+         {
+        "id":11,
+        "category":1,
+        "name": "halter top",
+        "description":"a description",
+        "price":20.99,
+        "image": "/images/tops/halter-top.jpg",
+        "gallery":[
+        "/images/tops/halter-top1.jpg", 
+        "/images/tops/halter-top2.jpg"
+        ] 
+        },
+         {
         "id":12,
         "category":1,
         "name": "halter top",
