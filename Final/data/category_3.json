@@ -4,7 +4,7 @@
         "id":25,
         "category":3,
         "name": "Yeezy Boost 350 V2 'Steel Grey'",
-        "description":"Yeezy Boost shoes in steel grey",
+        "description":"Yeezy Boost shoes in the color steel grey",
         "price":139.00,
         "image": "/images/25.jpg",
         "gallery":[
@@ -15,85 +15,85 @@
         {
             "id":26,
             "category":1,
-            "name": "halter top",
-            "description":"a description",
-            "price":20.99,
-           "image": "/images/24.jpg",
+            "name": "Yeezy Slides 'Dark Onyx'",
+            "description":"Yeezy slides in the color dark onyx",
+            "price":112.00,
+           "image": "/images/26.jpg",
             "gallery":[
-            "/images/24s.jpg", 
-            "/images/24b.jpg"
+            "/images/26s.jpg", 
+            "/images/26b.jpg"
             ] 
         },
         {
         "id":27,
         "category":3,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/24.jpg",
+        "name": "Yeezy SLides 'Salt'",
+        "description":"Yeezy slides in the color salt",
+        "price":97.00,
+        "image": "/images/27.jpg",
         "gallery":[
-        "/images/24s.jpg", 
-        "/images/24b.jpg"
+        "/images/27s.jpg", 
+        "/images/27b.jpg"
         ] 
         },
         {
         "id":28,
         "category":3,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/24.jpg",
+        "name": "Yeezy Foam Runner 'MX Granite'",
+        "description":"Yeezy foam runners in the color MX Granite",
+        "price":89.00,
+        "image": "/images/28.jpg",
         "gallery":[
-        "/images/24s.jpg", 
-        "/images/24b.jpg"
+        "/images/28s.jpg", 
+        "/images/28b.jpg"
         ] 
         },
         {
             "id":29,
             "category":3,
-            "name": "halter top",
-            "description":"a description",
-            "price":20.99,
-            "image": "/images/24.jpg",
+            "name": "Yeezy Foam Runner 'Carbon'",
+            "description":"Yeezy foam runners in the color Carbon",
+            "price":99.00,
+            "image": "/images/29.jpg",
             "gallery":[
-            "/images/24s.jpg", 
-            "/images/24b.jpg"
+            "/images/29s.jpg", 
+            "/images/29b.jpg"
             ] 
             },
          {
         "id":30,
         "category":3,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/24.jpg",
+        "name": "Yeezy Slides 'Slate Grey'",
+        "description":"Yeezy slides in the color Slate Grey",
+        "price":93.00,
+        "image": "/images/30.jpg",
         "gallery":[
-        "/images/24s.jpg", 
-        "/images/24b.jpg"
+        "/images/30s.jpg", 
+        "/images/30b.jpg"
         ] 
         },
         {
             "id":31,
             "category":3,
-            "name": "halter top",
-            "description":"a description",
-            "price":20.99,
-            "image": "/images/24.jpg",
+            "name": "Yeezy SLides 'Granite'",
+            "description":"Yeezy slides in Granite",
+            "price":86.00,
+            "image": "/images/31.jpg",
             "gallery":[
-            "/images/24s.jpg", 
-            "/images/24b.jpg"
+            "/images/31s.jpg", 
+            "/images/31b.jpg"
             ] 
         },
         {
             "id":32,
             "category":3,
-            "name": "halter top",
-            "description":"a description",
-            "price":20.99,
-            "image": "/images/24.jpg",
+            "name": "Yeezy Boost 350 V2 'MX Dark Salt'",
+            "description":"Yeezy Boost shoes in the color MX Dark Salt",
+            "price":141.00,
+            "image": "/images/32.jpg",
             "gallery":[
-            "/images/24s.jpg", 
-            "/images/24b.jpg"
+            "/images/32s.jpg", 
+            "/images/32b.jpg"
             ] 
             },
          {
