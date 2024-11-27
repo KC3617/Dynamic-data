@@ -2,146 +2,146 @@
     "products":[
         {
         "id":13,
-        "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "category":2,
+        "name": "Wakanda Forever Joggers",
+        "description":"turquoise Black Panther joggers",
+        "price":60.00,
+        "image": "/images/13.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/13s.jpg", 
+        "/images/13b.jpg"
         ] 
         },
         {
             "id":14,
-            "category":1,
+            "category":2,
             "name": "halter top",
-            "description":"a description",
-            "price":20.99,
-            "image": "/images/tops/halter-top.jpg",
-            "gallery":[
-            "/images/tops/halter-top1.jpg", 
-            "/images/tops/halter-top2.jpg"
+            "description":"black, Black Panther joggers",
+            "price":60.00,
+            "image": "/images/14.jpg",
+        "gallery":[
+        "/images/14s.jpg", 
+        "/images/14b.jpg"
             ] 
         },
         {
         "id":15,
-        "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "category":2,
+        "name": "Classic Shorts",
+        "description":"brown classic shorts",
+        "price":40.00,
+       "image": "/images/15.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/15s.jpg", 
+        "/images/15b.jpg"
         ] 
         },
         {
         "id":16,
-        "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "category":2,
+        "name": "Utility Signature Joggers",
+        "description":"yellow signature joggers",
+        "price":79.00,
+        "image": "/images/16.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/16s.jpg", 
+        "/images/16b.jpg"
         ] 
         },
         {
             "id":17,
-            "category":1,
-            "name": "halter top",
-            "description":"a description",
-            "price":20.99,
-            "image": "/images/tops/halter-top.jpg",
+            "category":2,
+            "name": "On The Low Shorts",
+            "description":"tan On The Low shorts",
+            "price":40.00,
+            "image": "/images/17.jpg",
             "gallery":[
-            "/images/tops/halter-top1.jpg", 
-            "/images/tops/halter-top2.jpg"
+            "/images/17s.jpg", 
+            "/images/17b.jpg"
             ] 
             },
          {
         "id":18,
-        "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "category":2,
+        "name": "On The Low Joggers",
+        "description":"tan On The Low joggers",
+        "price":40.00,
+        "image": "/images/18.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/18s.jpg", 
+        "/images/18b.jpg"
         ] 
         },
         {
             "id":19,
-            "category":1,
-            "name": "halter top",
-            "description":"a description",
-            "price":20.99,
-            "image": "/images/tops/halter-top.jpg",
+            "category":2,
+            "name": "Classic Jogger",
+            "description":"brown joggers",
+            "price":59.00,
+            "image": "/images/19.jpg",
             "gallery":[
-            "/images/tops/halter-top1.jpg", 
-            "/images/tops/halter-top2.jpg"
+            "/images/19s.jpg", 
+            "/images/19b.jpg"
             ] 
         },
         {
             "id":20,
-            "category":1,
-            "name": "halter top",
-            "description":"a description",
-            "price":20.99,
-            "image": "/images/tops/halter-top.jpg",
+            "category":2,
+            "name": "Signature Joggers",
+            "description":"tan signature joggers",
+            "price":79.00,
+            "image": "/images/20.jpg",
             "gallery":[
-            "/images/tops/halter-top1.jpg", 
-            "/images/tops/halter-top2.jpg"
+            "/images/20s.jpg", 
+            "/images/20b.jpg"
             ] 
             },
          {
         "id":21,
-        "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "category":2,
+        "name": "Men's On The Low Joggers",
+        "description":"blue, mens joggers",
+        "price":59.00,
+        "image": "/images/21.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/21s.jpg", 
+        "/images/21b.jpg"
         ] 
         },
          {
         "id":22,
-        "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "category":2,
+        "name": "Men's Utility Signature Joggers",
+        "description":"tan, mens joggers",
+        "price":69.00,
+        "image": "/images/22.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/22s.jpg", 
+        "/images/22b.jpg"
         ] 
         },
          {
         "id":23,
-        "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "category":2,
+        "name": "Varsity Chenille Patch Joggers",
+        "description":"black varsity joggers",
+        "price":69.00,
+        "image": "/images/23.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/23s.jpg", 
+        "/images/23b.jpg"
         ] 
         },
          {
         "id":24,
-        "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "category":2,
+        "name": "Worldwide Joggers",
+        "description":"blue and white joggers with flag patches",
+        "price":59.00,
+        "image": "/images/24.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/24s.jpg", 
+        "/images/24b.jpg"
         ] 
         }
     ]

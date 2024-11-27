@@ -87,61 +87,61 @@
         {
             "id":8,
             "category":1,
-            "name": "halter top",
-            "description":"a description",
-            "price":20.99,
-            "image": "/images/1.jpg",
+            "name": "Utility Signature Crewneck",
+            "description":"a yellow crewneck",
+            "price":79.00,
+            "image": "/images/8.jpg",
         "gallery":[
-        "/images/1s.jpg", 
-        "/images/1b.jpg"
+        "/images/8s.jpg", 
+        "/images/8b.jpg"
             ] 
             },
          {
         "id":9,
         "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/1.jpg",
+        "name": "On The Low Hoodie",
+        "description":"a tan hoodie",
+        "price":69.00,
+        "image": "/images/9.jpg",
         "gallery":[
-        "/images/1s.jpg", 
-        "/images/1b.jpg"
+        "/images/9s.jpg", 
+        "/images/9b.jpg"
         ] 
         },
          {
         "id":10,
         "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/1.jpg",
+        "name": "Classic Hoodie",
+        "description":"a brown hoodie",
+        "price":69.00,
+        "image": "/images/10.jpg",
         "gallery":[
-        "/images/1s.jpg", 
-        "/images/1b.jpg"
+        "/images/10s.jpg", 
+        "/images/10b.jpg"
         ] 
         },
          {
         "id":11,
         "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/1.jpg",
+        "name": "Signature Hoodie",
+        "description":"a blue signature hoodie",
+        "price":99.00,
+        "image": "/images/11.jpg",
         "gallery":[
-        "/images/1s.jpg", 
-        "/images/1b.jpg"
+        "/images/11s.jpg", 
+        "/images/11b.jpg"
         ] 
         },
          {
         "id":12,
         "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/1.jpg",
+        "name": "Cropped Hoodie",
+        "description":"a pink cropped hoodie",
+        "price":99.00,
+        "image": "/images/12.jpg",
         "gallery":[
-        "/images/1s.jpg", 
-        "/images/1b.jpg"
+        "/images/12s.jpg", 
+        "/images/12b.jpg"
         ] 
         }
     ]

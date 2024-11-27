@@ -2,14 +2,14 @@
     "products":[
         {
         "id":25,
-        "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "category":3,
+        "name": "Yeezy Boost 350 V2 'Steel Grey'",
+        "description":"Yeezy Boost shoes in steel grey",
+        "price":139.00,
+        "image": "/images/25.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/25s.jpg", 
+        "/images/25b.jpg"
         ] 
         },
         {
@@ -18,130 +18,130 @@
             "name": "halter top",
             "description":"a description",
             "price":20.99,
-            "image": "/images/tops/halter-top.jpg",
+           "image": "/images/24.jpg",
             "gallery":[
-            "/images/tops/halter-top1.jpg", 
-            "/images/tops/halter-top2.jpg"
+            "/images/24s.jpg", 
+            "/images/24b.jpg"
             ] 
         },
         {
         "id":27,
-        "category":1,
+        "category":3,
         "name": "halter top",
         "description":"a description",
         "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "image": "/images/24.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/24s.jpg", 
+        "/images/24b.jpg"
         ] 
         },
         {
         "id":28,
-        "category":1,
+        "category":3,
         "name": "halter top",
         "description":"a description",
         "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "image": "/images/24.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/24s.jpg", 
+        "/images/24b.jpg"
         ] 
         },
         {
             "id":29,
-            "category":1,
+            "category":3,
             "name": "halter top",
             "description":"a description",
             "price":20.99,
-            "image": "/images/tops/halter-top.jpg",
+            "image": "/images/24.jpg",
             "gallery":[
-            "/images/tops/halter-top1.jpg", 
-            "/images/tops/halter-top2.jpg"
+            "/images/24s.jpg", 
+            "/images/24b.jpg"
             ] 
             },
          {
         "id":30,
-        "category":1,
+        "category":3,
         "name": "halter top",
         "description":"a description",
         "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "image": "/images/24.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/24s.jpg", 
+        "/images/24b.jpg"
         ] 
         },
         {
             "id":31,
-            "category":1,
+            "category":3,
             "name": "halter top",
             "description":"a description",
             "price":20.99,
-            "image": "/images/tops/halter-top.jpg",
+            "image": "/images/24.jpg",
             "gallery":[
-            "/images/tops/halter-top1.jpg", 
-            "/images/tops/halter-top2.jpg"
+            "/images/24s.jpg", 
+            "/images/24b.jpg"
             ] 
         },
         {
             "id":32,
-            "category":1,
+            "category":3,
             "name": "halter top",
             "description":"a description",
             "price":20.99,
-            "image": "/images/tops/halter-top.jpg",
+            "image": "/images/24.jpg",
             "gallery":[
-            "/images/tops/halter-top1.jpg", 
-            "/images/tops/halter-top2.jpg"
+            "/images/24s.jpg", 
+            "/images/24b.jpg"
             ] 
             },
          {
         "id":33,
-        "category":1,
+        "category":3,
         "name": "halter top",
         "description":"a description",
         "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "image": "/images/24.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/24s.jpg", 
+        "/images/24b.jpg"
         ] 
         },
          {
         "id":34,
-        "category":1,
+        "category":3,
         "name": "halter top",
         "description":"a description",
         "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "image": "/images/24.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/24s.jpg", 
+        "/images/24b.jpg"
         ] 
         },
          {
         "id":35,
-        "category":1,
+        "category":3,
         "name": "halter top",
         "description":"a description",
         "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "image": "/images/24.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/24s.jpg", 
+        "/images/24b.jpg"
         ] 
         },
          {
         "id":36,
-        "category":1,
+        "category":3,
         "name": "halter top",
         "description":"a description",
         "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "image": "/images/24.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/24s.jpg", 
+        "/images/24b.jpg"
         ] 
         }
     ]
