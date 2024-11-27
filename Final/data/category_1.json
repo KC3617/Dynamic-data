@@ -3,85 +3,85 @@
         {
         "id":1,
         "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "name": "Black Panther Long Sleeve",
+        "description":"a turquoise Black Panther graphic long sleeve",
+        "price":35.00,
+        "image": "/images/1.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/1s.jpg", 
+        "/images/1b.jpg"
         ] 
         },
         {
             "id":2,
             "category":1,
-            "name": "halter top",
-            "description":"a description",
-            "price":20.99,
-            "image": "/images/tops/halter-top.jpg",
-            "gallery":[
-            "/images/tops/halter-top1.jpg", 
-            "/images/tops/halter-top2.jpg"
+            "name": "Black Panther Tie Dye Crewneck",
+            "description":"a black and turquoise tie dyed graphic crewneck",
+            "price":40.00,
+            "image": "/images/2.jpg",
+        "gallery":[
+        "/images/2s.jpg", 
+        "/images/2b.jpg"
             ] 
         },
         {
         "id":3,
         "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "name": "Wakanda Forever Hoodie",
+        "description":"a turquoise Black Panther graphic hoodie",
+        "price":60.00,
+        "image": "/images/3.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/3s.jpg", 
+        "/images/3b.jpg"
         ] 
         },
         {
         "id":4,
         "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "name": "Black Panther Hoodie",
+        "description":"a black, Black Panther hoodie",
+        "price":60.00,
+       "image": "/images/4.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/4s.jpg", 
+        "/images/4b.jpg"
         ] 
         },
         {
             "id":5,
             "category":1,
-            "name": "halter top",
-            "description":"a description",
-            "price":20.99,
-            "image": "/images/tops/halter-top.jpg",
+            "name": "Black Panther Wakanda Forever Tee",
+            "description":"a purple Black Panther graphic T-shirt",
+            "price":30.00,
+            "image": "/images/5.jpg",
             "gallery":[
-            "/images/tops/halter-top1.jpg", 
-            "/images/tops/halter-top2.jpg"
+        "/images/5s.jpg", 
+        "/images/5b.jpg"
             ] 
             },
          {
         "id":6,
         "category":1,
-        "name": "halter top",
-        "description":"a description",
-        "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "name": "Black Panther Tee",
+        "description":"a tan Black Panther graphic T-shirt",
+        "price":30.00,
+        "image": "/images/6.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/6s.jpg", 
+        "/images/6b.jpg"
         ] 
         },
         {
             "id":7,
             "category":1,
-            "name": "halter top",
-            "description":"a description",
-            "price":20.99,
-            "image": "/images/tops/halter-top.jpg",
+            "name": "Black Panther White Tee",
+            "description":"a white Black Panther graphic T-shirt",
+            "price":30.00,
+            "image": "/images/7.jpg",
             "gallery":[
-            "/images/tops/halter-top1.jpg", 
-            "/images/tops/halter-top2.jpg"
+            "/images/7s.jpg", 
+            "/images/7b.jpg"
             ] 
         },
         {
@@ -90,10 +90,10 @@
             "name": "halter top",
             "description":"a description",
             "price":20.99,
-            "image": "/images/tops/halter-top.jpg",
-            "gallery":[
-            "/images/tops/halter-top1.jpg", 
-            "/images/tops/halter-top2.jpg"
+            "image": "/images/1.jpg",
+        "gallery":[
+        "/images/1s.jpg", 
+        "/images/1b.jpg"
             ] 
             },
          {
@@ -102,10 +102,10 @@
         "name": "halter top",
         "description":"a description",
         "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "image": "/images/1.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/1s.jpg", 
+        "/images/1b.jpg"
         ] 
         },
          {
@@ -114,10 +114,10 @@
         "name": "halter top",
         "description":"a description",
         "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "image": "/images/1.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/1s.jpg", 
+        "/images/1b.jpg"
         ] 
         },
          {
@@ -126,10 +126,10 @@
         "name": "halter top",
         "description":"a description",
         "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "image": "/images/1.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/1s.jpg", 
+        "/images/1b.jpg"
         ] 
         },
          {
@@ -138,10 +138,10 @@
         "name": "halter top",
         "description":"a description",
         "price":20.99,
-        "image": "/images/tops/halter-top.jpg",
+        "image": "/images/1.jpg",
         "gallery":[
-        "/images/tops/halter-top1.jpg", 
-        "/images/tops/halter-top2.jpg"
+        "/images/1s.jpg", 
+        "/images/1b.jpg"
         ] 
         }
     ]
