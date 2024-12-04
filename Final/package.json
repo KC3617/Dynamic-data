@@ -12,6 +12,7 @@
   "author": "Kierah Cephas",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "express": "^4.21.1",
     "express-handlebars": "^8.0.1",
     "handlebars": "^4.7.8"
