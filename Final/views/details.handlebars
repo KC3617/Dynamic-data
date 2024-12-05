@@ -1,6 +1,6 @@
 {{#each data.products}}
-
-{{>prodDetails}} <br>
+{{this.image}}
+{{this.id}} {{this.name}} {{this.price}} <br>
     {{#each this.gallery}}
         {{this}} <br>
     {{/each}}
