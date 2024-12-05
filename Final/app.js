@@ -35,6 +35,7 @@ app.get("/",(req,res)=>{
 //function to get featured products from json files
 const fs = require('fs')
 const path = require('path')
+
 function getFeaturedProducts(numberOfProducts = 6) {
     const categoryFiles = ['./data/category_1.json', './data/category_2.json', './data/category_3.json'] // Add all your category files
     let allProducts = []
@@ -83,7 +84,14 @@ const getProductDetails = (categoryName, productId, res) => {
         const filteredData = {
             products: data.products.filter(product => product.id == productId)
         };
-        res.render('details', { data: filteredData });
+
+    // Get related products using the numeric category value
+    const relatedProducts = getRelatedProducts(categoryName.split('_')[1], 4, productId);
+
+      // Log related products for debugging
+      console.log('Related Products:', relatedProducts);
+
+    res.render('details', { data: filteredData, relatedProducts});
     } catch (error) {
         console.error(`Error loading product details: ${categoryName}`, error);
         res.status(500).send('Error loading product details.');
@@ -107,6 +115,32 @@ app.get("/:category/details/:id", (req, res) => {
         res.status(404).send('Category not found.');
     }
 });
+
+// Function to get related products from the same category
+function getRelatedProducts(category, numberOfProducts = 4, excludeProductId = null) {
+    const categoryFile = `./data/category_${category}.json`;
+    let products = [];
+
+    try {
+        const filePath = path.join(__dirname, categoryFile);
+        const categoryData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        products = categoryData.products;
+
+        // Exclude the current product if an ID is provided
+        if (excludeProductId) {
+            products = products.filter(product => product.id !== parseInt(excludeProductId));
+        }
+
+        // Shuffle the array to randomize selection
+        products.sort(() => 0.5 - Math.random());
+
+        // Return the specified number of products
+        return products.slice(0, numberOfProducts);
+    } catch (error) {
+        console.error(`Error reading category file: ${error}`);
+        return [];
+    }
+}
 
 //cart
 let cart = {"products":[]}

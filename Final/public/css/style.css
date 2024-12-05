@@ -1,11 +1,43 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 image {
     display: block;
     margin: auto;
 }
 
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: black !important;
+}
+
+.abstract {
+  text-align: center;
+}
+
 .img-thumbnail {
   height: auto;
   width: 200px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.line-height-container {
+  height: 500px;
+  line-height: 500px;
+  text-align: center;
+}
+
+.featCat {
+  text-align: center;
 }
 
 .product-image {
@@ -36,6 +68,6 @@ image {
   }
 
 .tan-bg {
-    background-color: #b9b5a7;
+    background-color: #ccc4b5;
 }
 

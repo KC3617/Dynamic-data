@@ -1,28 +1,27 @@
-{{#each data.products}}
-
 <div class="container text-center">
-
-  <div class="row align-items-center">
-    <!-- Image Block -->
-    <div class="col">
-      <img src="{{image}}" alt="{{name}}" class="product-image">
-  <br>    
-    {{#each this.gallery}}
-       <img src="{{this}}" class="img-thumbnail" alt="...">
+    {{#each data.products}}
+        <div class="row align-items-center">
+            <!-- Image Block -->
+            <div class="col">
+                <img src="{{this.image}}" alt="{{this.name}}" class="product-image">
+                <br>    
+                {{#each this.gallery}}
+                    <img src="{{this}}" class="img-thumbnail" alt="...">
+                {{/each}}
+            </div>
+            <!-- Product Details Block -->
+            <div class="col">
+                <div class="product-details">
+                    <h2>{{this.name}}</h2>
+                    <h6>{{this.description}}</h6>
+                    <h4>${{this.price}}</h4> 
+                    <br>
+                    {{> addCart}}   
+                    <br>
+                </div>
+            </div>
+        </div>
     {{/each}}
-    </div>
-    <!-- Product Details Block -->
-    <div class="col">
-      <div class="product-details">
-        <h2>{{name}}</h2>
-        <p>{{description}}</p>
-        <h4>${{price}}</h4> <br>
-        {{>addCart}}   
-        <br>
-      </div>
-    </div>
-  </div>
-
+<br>
+    {{>relatedProducts}}  
 </div>
-
-{{/each}}

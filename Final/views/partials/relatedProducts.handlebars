@@ -1,0 +1,17 @@
+<div class="related-products">
+    <h2>Related Products</h2>
+    <div class="card-group">
+        {{#each relatedProducts}}
+            <div class="card">
+                <img src="{{this.image}}" class="card-img-top" alt="{{this.name}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{this.name}}</h5>
+                    <h6 class="card-text">${{this.price}}</h6>
+                    <a href="/category{{category}}/details/{{id}}" class="card-link link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">View Details</a>
+                </div>
+            </div>
+        {{else}}
+            <p>No related products available.</p>
+        {{/each}}
+    </div>
+</div>

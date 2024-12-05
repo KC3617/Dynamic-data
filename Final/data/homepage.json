@@ -1,9 +1,18 @@
 {
     "title":"Welcome To The Shop!",
-    "abstract":"Elevate your game with our bold, street-inspired athletic wear that blends performance and style. Shop NOW!!!",
-    "list":[
-        "Tops",
-        "Bottoms",
-        "Shoes"
+    "abstract":"Elevate your game with our bold, street-inspired athletic wear that blends performance and style.",
+   "categories": [
+        {
+            "name": "Tops",
+            "id": 1
+        },
+        {
+            "name": "Bottoms",
+            "id": 2
+        },
+        {
+            "name": "Shoes",
+            "id": 3
+        }
     ]
 }
