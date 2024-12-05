@@ -73,6 +73,7 @@ app.get("/category3",(req,res)=>{
     const data = require('./data/category_3.json') 
     res.render('category',{data})
 })
+
 //details page
 app.get("/category1/details/:id",(req,res)=>{
 
@@ -90,6 +91,39 @@ app.get("/category1/details/:id",(req,res)=>{
     res.render('details',{"data":tempData})
 })
 
+app.get("/category2/details/:id",(req,res)=>{
+
+    const data = require('./data/category_2.json') 
+    console.log(data)
+    // filter the data to get only the data that matches the id
+    // temporary filter
+    var tempData = {"products":[]}
+    tempData.products = data.products.filter((product)=>{
+        return product.id == req.params.id
+    })
+    console.log("data filter")
+    console.log(data)
+
+    res.render('details',{"data":tempData})
+})
+
+app.get("/category3/details/:id",(req,res)=>{
+
+    const data = require('./data/category_3.json') 
+    console.log(data)
+    // filter the data to get only the data that matches the id
+    // temporary filter
+    var tempData = {"products":[]}
+    tempData.products = data.products.filter((product)=>{
+        return product.id == req.params.id
+    })
+    console.log("data filter")
+    console.log(data)
+
+    res.render('details',{"data":tempData})
+})
+
+//cart
 let cart = {"products":[]}
 
 app.get("/cart",(req,res) =>{
