@@ -24,9 +24,37 @@ const port = process.env.port || 3000
 
 //Setup routes
 app.get("/",(req,res)=>{
-    const data = require('./data/homepage.json') 
-    res.render('homepage',{data})
+    const data = require('./data/homepage.json')
+    const featuredProducts = getFeaturedProducts(6); // Get 6 featured products
+    res.render('homepage',{
+        data: data,
+        featuredProducts: featuredProducts
+    })
 })
+
+//function to get featured products from json files
+const fs = require('fs');
+const path = require('path');
+function getFeaturedProducts(numberOfProducts = 6) {
+    const categoryFiles = ['./data/category_1.json', './data/category_2.json', './data/category_3.json']; // Add all your category files
+    let allProducts = [];
+
+    categoryFiles.forEach(file => {
+        const filePath = path.join(__dirname, file);
+        const categoryData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        allProducts = allProducts.concat(categoryData.products.map(product => ({
+            ...product,
+            categoryName: categoryData.name
+        })));
+    });
+
+    // Shuffle the array to randomize selection
+    allProducts.sort(() => 0.5 - Math.random());
+
+    // Return the specified number of products
+    return allProducts.slice(0, numberOfProducts);
+}
+//end
 
 app.get("/about",(req,res)=>{
     const data = require('./data/about.json') 

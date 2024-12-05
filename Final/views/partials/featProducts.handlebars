@@ -1,13 +1,12 @@
-<div class="row owl-theme owl-carousel owl-packages">
+<div class="row owl-theme owl-carousel owl-products">
     {{#each featuredProducts}}
     <div class="card">
-        <img src="{{image}}" class="card-img-top" alt="{{title}}">
+        <img src="{{image}}" class="card-img-top" alt="{{name}}">
         <div class="card-body">
-            <h5 class="card-title">{{title}}</h5>
+            <h4 class="card-title">{{name}}</h4>
+            <h5>${{price}}</h5>
+            <h6><a href="/category{{category}}/details/{{id}}" class="card-link">View</a></h6>
         </div>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">${{price}}</li>
-        </ul>
     </div>
     {{/each}}
 </div>
