@@ -19,10 +19,10 @@
             "description":"a black and turquoise tie dyed graphic crewneck",
             "price":40.00,
             "image": "/images/2.jpg",
-        "gallery":[
-        "/images/2s.jpg", 
-        "/images/2b.jpg"
-            ] 
+            "gallery":[
+            "/images/2s.jpg", 
+            "/images/2b.jpg"
+                ] 
         },
         {
         "id":3,
