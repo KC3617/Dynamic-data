@@ -3,6 +3,28 @@ image {
     margin: auto;
 }
 
+.img-thumbnail {
+  height: auto;
+  width: 200px;
+}
+
+.product-image {
+  max-width: 100%; /* Ensures responsive sizing */
+  height: auto; /* Maintains aspect ratio */
+  width: 500px; /* Set a fixed width for uniformity */
+  display: block; /* Centers the image */
+  margin: 0 auto; /* Centers within the column */
+}
+
+.product-details {
+  text-align: left; /* Align text consistently */
+}
+
+.row {
+  margin-top: 20px; /* Add spacing between rows */
+}
+
+
 .carousel-item {
     height: 400px; /* Adjust this value as needed */
   }

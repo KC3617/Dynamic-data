@@ -75,53 +75,38 @@ app.get("/category3",(req,res)=>{
 })
 
 //details page
-app.get("/category1/details/:id",(req,res)=>{
+//Used chatgpt to make my code more dynamic rather than pasting the same category route 3 times for each json file to get the product details to show.
+// Function to render product details
+const getProductDetails = (categoryName, productId, res) => {
+    try {
+        const data = require(`./data/${categoryName}.json`);
+        const filteredData = {
+            products: data.products.filter(product => product.id == productId)
+        };
+        res.render('details', { data: filteredData });
+    } catch (error) {
+        console.error(`Error loading product details: ${categoryName}`, error);
+        res.status(500).send('Error loading product details.');
+    }
+};
 
-    const data = require('./data/category_1.json') 
-    console.log(data)
-    // filter the data to get only the data that matches the id
-    // temporary filter
-    var tempData = {"products":[]}
-    tempData.products = data.products.filter((product)=>{
-        return product.id == req.params.id
-    })
-    console.log("data filter")
-    console.log(data)
+// Dynamic route for category details
+app.get("/:category/details/:id", (req, res) => {
+    const categoryName = req.params.category; // e.g., category1
+    const productId = req.params.id;
 
-    res.render('details',{"data":tempData})
-})
+    const categoryFileMap = {
+        category1: 'category_1',
+        category2: 'category_2',
+        category3: 'category_3',
+    };
 
-app.get("/category2/details/:id",(req,res)=>{
-
-    const data = require('./data/category_2.json') 
-    console.log(data)
-    // filter the data to get only the data that matches the id
-    // temporary filter
-    var tempData = {"products":[]}
-    tempData.products = data.products.filter((product)=>{
-        return product.id == req.params.id
-    })
-    console.log("data filter")
-    console.log(data)
-
-    res.render('details',{"data":tempData})
-})
-
-app.get("/category3/details/:id",(req,res)=>{
-
-    const data = require('./data/category_3.json') 
-    console.log(data)
-    // filter the data to get only the data that matches the id
-    // temporary filter
-    var tempData = {"products":[]}
-    tempData.products = data.products.filter((product)=>{
-        return product.id == req.params.id
-    })
-    console.log("data filter")
-    console.log(data)
-
-    res.render('details',{"data":tempData})
-})
+    if (categoryFileMap[categoryName]) {
+        getProductDetails(categoryFileMap[categoryName], productId, res);
+    } else {
+        res.status(404).send('Category not found.');
+    }
+});
 
 //cart
 let cart = {"products":[]}
