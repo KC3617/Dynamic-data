@@ -1,4 +1,6 @@
 {
+    "image": "/images/shoes.png",
+    "name": "Shoes",
     "products":[
         {
         "id":25,

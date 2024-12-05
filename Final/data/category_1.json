@@ -1,4 +1,6 @@
 {
+    "image": "/images/tops.jpg",
+    "name": "Tops",
     "products":[
         {
         "id":1,

@@ -1,4 +1,6 @@
 {
+    "image": "/images/pants.png",
+    "name": "Bottoms",
     "products":[
         {
         "id":13,
